@@ -109,54 +109,100 @@ const Home = () => {
         <h2 className="text-2xl md:text-3xl font-bold text-[#2d3748] mb-16">
           Test your current affairs knowledge every fortnight!
         </h2>
-        
-        <div className="max-w-4xl mx-auto relative h-[400px] flex items-center justify-center">
+        {/* MOBILE LAYOUT (Flexbox & CSS Borders) */}
+        <div className="md:hidden max-w-3xl mx-auto relative py-4 w-full px-2">
+          {/* Logo in background */}
+          <div className="absolute top-0 left-1/2 -translate-x-1/2 opacity-80">
+            <img src="/logo.jpeg" alt="MockMentor Logo" className="h-8 object-contain" />
+          </div>
+
+          <div className="relative z-10 flex flex-col items-center justify-center gap-12 w-full mt-12">
+            
+            {/* Top Row */}
+            <div className="flex w-full justify-between items-center z-20">
+              <div className="bg-[#568d99] text-white font-bold py-2.5 px-2 rounded-full text-[10px] shadow-md text-center w-[45%] max-w-[220px]">
+                PIB NEWS
+              </div>
+              <div className="bg-[#568d99] text-white font-bold py-2.5 px-2 rounded-full text-[10px] shadow-md text-center w-[45%] max-w-[220px]">
+                RBI + SEBI CIRCULARS
+              </div>
+            </div>
+
+            {/* Center Box */}
+            <div className="bg-[#2d4a52] text-white font-bold py-3 px-6 rounded relative uppercase tracking-wider text-[11px] shadow-lg z-20">
+              What's Included ?
+            </div>
+
+            {/* Bottom Row */}
+            <div className="flex w-full justify-between items-center z-20">
+              <div className="bg-[#568d99] text-white font-bold py-2.5 px-2 rounded-full text-[10px] shadow-md text-center w-[45%] max-w-[220px]">
+                MISCELLANEOUS GA
+              </div>
+              <div className="bg-[#568d99] text-white font-bold py-2.5 px-2 rounded-full text-[10px] shadow-md text-center w-[45%] max-w-[220px]">
+                SCHEMES + REPORTS
+              </div>
+            </div>
+
+            {/* Connecting Dashed Lines using CSS */}
+            <div className="absolute inset-0 pointer-events-none flex flex-col items-center justify-center z-0">
+              {/* Top connectors */}
+              <div className="w-[55%] h-[3.5rem] flex absolute top-[22%] -z-10">
+                <div className="w-1/2 h-full border-b-2 border-l-2 border-dashed border-[#2d4a52] rounded-bl-3xl -mr-[1px]"></div>
+                <div className="w-1/2 h-full border-b-2 border-r-2 border-dashed border-[#2d4a52] rounded-br-3xl -ml-[1px]"></div>
+              </div>
+              
+              {/* Bottom connectors */}
+              <div className="w-[55%] h-[3.5rem] flex absolute bottom-[22%] -z-10">
+                <div className="w-1/2 h-full border-t-2 border-l-2 border-dashed border-[#2d4a52] rounded-tl-3xl -mr-[1px]"></div>
+                <div className="w-1/2 h-full border-t-2 border-r-2 border-dashed border-[#2d4a52] rounded-tr-3xl -ml-[1px]"></div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        {/* DESKTOP LAYOUT (Absolute Positioning & SVG) */}
+        <div className="hidden md:flex max-w-4xl mx-auto relative h-[400px] items-center justify-center">
           {/* Logo in background top center */}
           <div className="absolute top-0 left-1/2 -translate-x-1/2 opacity-80">
-            <img src="/logo.jpeg" alt="MockMentor Logo" className="h-8 md:h-10 object-contain" />
+            <img src="/logo.jpeg" alt="MockMentor Logo" className="h-10 object-contain" />
           </div>
 
           {/* Central Box */}
-          <div className="z-10 bg-[#2d4a52] text-white font-bold py-3 px-6 rounded relative uppercase tracking-wider text-sm md:text-base">
-            What's Included ?
+          <div className="z-10 bg-[#2d4a52] text-white font-bold py-4 px-8 rounded relative uppercase tracking-wider text-base shadow-lg">
+            WHAT'S INCLUDED ?
           </div>
 
           {/* Lines (SVG) */}
           <svg className="absolute inset-0 w-full h-full pointer-events-none" style={{ zIndex: 0 }}>
             {/* Top Left Line */}
-            <path d="M 250 150 Q 250 200, 420 200" fill="none" stroke="#2d4a52" strokeWidth="2" strokeDasharray="6,6" markerEnd="url(#arrow)" />
+            <path d="M 250 150 Q 250 200, 400 200" fill="none" stroke="#2d4a52" strokeWidth="2" strokeDasharray="6,6" />
             {/* Top Right Line */}
-            <path d="M 650 150 Q 650 200, 480 200" fill="none" stroke="#2d4a52" strokeWidth="2" strokeDasharray="6,6" markerEnd="url(#arrow)" />
+            <path d="M 650 150 Q 650 200, 500 200" fill="none" stroke="#2d4a52" strokeWidth="2" strokeDasharray="6,6" />
             {/* Bottom Left Line */}
-            <path d="M 250 250 Q 250 200, 420 200" fill="none" stroke="#2d4a52" strokeWidth="2" strokeDasharray="6,6" />
+            <path d="M 250 250 Q 250 200, 400 200" fill="none" stroke="#2d4a52" strokeWidth="2" strokeDasharray="6,6" />
             {/* Bottom Right Line */}
-            <path d="M 650 250 Q 650 200, 480 200" fill="none" stroke="#2d4a52" strokeWidth="2" strokeDasharray="6,6" />
-            
-            <defs>
-              <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto" markerUnits="strokeWidth">
-                <path d="M0,0 L0,6 L9,3 z" fill="#2d4a52" />
-              </marker>
-            </defs>
+            <path d="M 650 250 Q 650 200, 500 200" fill="none" stroke="#2d4a52" strokeWidth="2" strokeDasharray="6,6" />
           </svg>
 
           {/* Nodes */}
-          <div className="absolute top-[80px] left-[15%] md:left-[20%]">
-            <div className="bg-[#568d99] text-white font-bold py-3 px-8 rounded-full text-sm shadow-md">
+          <div className="absolute top-[80px] left-[12%]">
+            <div className="bg-[#568d99] text-white font-bold py-3 px-8 rounded-full text-sm shadow-md min-w-[220px] text-center">
               PIB NEWS
             </div>
           </div>
-          <div className="absolute top-[80px] right-[15%] md:right-[20%]">
-            <div className="bg-[#568d99] text-white font-bold py-3 px-8 rounded-full text-sm shadow-md">
+          <div className="absolute top-[80px] right-[12%]">
+            <div className="bg-[#568d99] text-white font-bold py-3 px-8 rounded-full text-sm shadow-md min-w-[220px] text-center">
               RBI + SEBI CIRCULARS
             </div>
           </div>
-          <div className="absolute bottom-[80px] left-[15%] md:left-[20%]">
-            <div className="bg-[#568d99] text-white font-bold py-3 px-8 rounded-full text-sm shadow-md">
+          <div className="absolute bottom-[80px] left-[12%]">
+            <div className="bg-[#568d99] text-white font-bold py-3 px-8 rounded-full text-sm shadow-md min-w-[220px] text-center">
               MISCELLANEOUS GA
             </div>
           </div>
-          <div className="absolute bottom-[80px] right-[15%] md:right-[20%]">
-            <div className="bg-[#568d99] text-white font-bold py-3 px-8 rounded-full text-sm shadow-md">
+          <div className="absolute bottom-[80px] right-[12%]">
+            <div className="bg-[#568d99] text-white font-bold py-3 px-8 rounded-full text-sm shadow-md min-w-[220px] text-center">
               SCHEMES + REPORTS
             </div>
           </div>
