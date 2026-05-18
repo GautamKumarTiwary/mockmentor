@@ -170,19 +170,25 @@ const Home = () => {
             Cover RBI Circulars <span className="text-[#EA4335]">from YouTube</span>
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <div className="relative group cursor-pointer rounded-xl overflow-hidden shadow-lg border border-gray-200">
-              <img src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&w=600&q=80" alt="Video 1" className="w-full h-[250px] object-cover" />
-              <div className="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/50 transition-colors">
-                <PlayCircle className="w-16 h-16 text-red-600 fill-white group-hover:scale-110 transition-transform" />
-              </div>
-              <div className="absolute top-4 left-4 text-white font-bold text-sm drop-shadow-md">Annual Report Of Ombudsman Scheme, 2024-25</div>
+            <div className="rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-black aspect-video relative">
+              <iframe 
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/djDwxTe-YjI" 
+                title="Mock Mentor Video 1" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowFullScreen
+              ></iframe>
             </div>
-            <div className="relative group cursor-pointer rounded-xl overflow-hidden shadow-lg border border-gray-200">
-              <img src="https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?auto=format&fit=crop&w=600&q=80" alt="Video 2" className="w-full h-[250px] object-cover" />
-              <div className="absolute inset-0 bg-black/40 flex items-center justify-center group-hover:bg-black/50 transition-colors">
-                <PlayCircle className="w-16 h-16 text-red-600 fill-white group-hover:scale-110 transition-transform" />
-              </div>
-              <div className="absolute top-4 left-4 text-white font-bold text-sm drop-shadow-md">National Strategy For Financial Inclusion | RBI Grade B</div>
+            <div className="rounded-xl overflow-hidden shadow-lg border border-gray-200 bg-black aspect-video relative">
+              <iframe 
+                className="absolute inset-0 w-full h-full"
+                src="https://www.youtube.com/embed/uLV3sBEvcVU" 
+                title="Mock Mentor Video 2" 
+                frameBorder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowFullScreen
+              ></iframe>
             </div>
           </div>
         </div>
