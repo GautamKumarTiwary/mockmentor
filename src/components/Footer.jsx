@@ -13,6 +13,17 @@ const WhatsAppIcon = ({ className }) => (
   </svg>
 )
 
+const YoutubeIcon = ({ className }) => (
+  <svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    viewBox="0 0 24 24" 
+    fill="currentColor"
+    className={className}
+  >
+    <path d="M23.498 6.163a3.003 3.003 0 0 0-2.11-2.11C19.518 3.545 12 3.545 12 3.545s-7.518 0-9.388.508a3.003 3.003 0 0 0-2.11 2.11C0 8.033 0 12 0 12s0 3.967.502 5.837a3.003 3.003 0 0 0 2.11 2.11c1.87.508 9.388.508 9.388.508s7.518 0 9.388-.508a3.003 3.003 0 0 0 2.11-2.11C24 15.967 24 12 24 12s0-3.967-.502-5.837zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+  </svg>
+)
+
 const Footer = () => {
   return (
     <footer className="bg-slate-900 text-slate-300 py-12 border-t border-slate-800 mt-auto">
@@ -25,10 +36,10 @@ const Footer = () => {
             Your ultimate companion for RBI Grade B preparation. Get access to top-tier courses, descriptive writing evaluation, and expert mentorship.
           </p>
           <div className="flex space-x-4">
-            <a href="#" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-brand-600 hover:text-white transition-colors"><Globe className="w-4 h-4"/></a>
-            <a href="#" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-brand-600 hover:text-white transition-colors"><Mail className="w-4 h-4"/></a>
-            <a href="https://wa.me/919431986819" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-green-500 hover:text-white transition-colors"><WhatsAppIcon className="w-4 h-4"/></a>
-            <a href="#" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-brand-600 hover:text-white transition-colors"><MapPin className="w-4 h-4"/></a>
+            <a href="https://www.mockmentor.in" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-brand-600 hover:text-white transition-colors" title="Website"><Globe className="w-4 h-4"/></a>
+            <a href="mailto:mockmentorofficial@gmail.com" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-brand-600 hover:text-white transition-colors" title="Email Us"><Mail className="w-4 h-4"/></a>
+            <a href="https://wa.me/919431986819" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-green-500 hover:text-white transition-colors" title="WhatsApp Helpline"><WhatsAppIcon className="w-4 h-4"/></a>
+            <a href="https://www.youtube.com/@MockMentor01" target="_blank" rel="noopener noreferrer" className="w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center text-slate-400 hover:bg-red-600 hover:text-white transition-colors" title="YouTube Channel"><YoutubeIcon className="w-4 h-4"/></a>
           </div>
         </div>
         

@@ -198,14 +198,14 @@ The Demo Course serves as the perfect starting point for aspirants who want to e
       text: "2025 was my fourth attempt at the RBI Grade B examination, and by God’s grace, I secured AIR-2 this year. I started following MockMentor in 2024, and in 2025, I enrolled in their available courses for Phase 2 preparation. One of the biggest strengths of MockMentor was the exceptional quality of their content.",
       fullText: `2025 was my fourth attempt at the RBI Grade B examination, and by God’s grace, I secured AIR-2 this year. I started following MockMentor in 2024, and in 2025, I enrolled in their available courses for Phase 2 preparation.\n\nOne of the biggest strengths of MockMentor was the exceptional quality of their content. The current affairs magazines were extremely well-curated, concise, authentic, and highly exam-oriented. As a working aspirant with limited preparation time, having access to crisp and relevant material helped me prepare comprehensively in a very efficient manner. The return on investment was truly remarkable.\n\nThe fortnightly MCQs played a crucial role in ensuring consistent revision and keeping me aligned with the evolving exam pattern. I particularly found the Phase 2 MCQs to be highly underrated, as they helped me develop a holistic understanding of the syllabus and improve conceptual clarity. In fact, I scored 43 marks in Management, and MockMentor’s content contributed significantly to that achievement.\n\nI also extensively utilized their descriptive preparation resources, which proved immensely valuable. In Finance, Management, and ESI descriptive papers, I scored 35+ marks. The answer-writing guidance, practice material, and exam-oriented approach helped me improve both structure and presentation in descriptive papers.\n\nAdditionally, their interview guidance sessions were extremely insightful and helped me build confidence for the final stage of the examination.\n\nOverall, MockMentor’s content remained highly relevant, concise, and exam-focused throughout my preparation journey. For serious RBI aspirants, especially working professionals looking for efficient and high-quality preparation resources , MockMentor can be an invaluable companion in the RBI Grade B journey.`,
       img: "/deeksha_portrait_1779098675776.jpeg",
-      badges: ['FM Desc: 39 (Highest)', 'Interview: 58 (2nd Highest)']
+      badges: ['FM Desc: 39 (Highest)', 'FM Overall: 81.75 (Highest)']
     },
     {
       name: "Harshita Tiwari",
       rank: "Selected as RBI Grade B - Rank 7",
       prog: "(MCQ pack)",
-      text: "I would like to sincerely thank MockMentor for their excellent MCQ course and highly curated highlighted Telegram content. The s MCQs on current affairs, RBI & SEBI circulars, schemes, and reports, helped me strengthen my concepts and improve revision consistently.",
-      fullText: `I would like to sincerely thank MockMentor for their excellent MCQ course and highly curated highlighted Telegram content. The s MCQs on current affairs, RBI & SEBI circulars, schemes, and reports, helped me strengthen my concepts and improve revision consistently. The highlighted content shared regularly on Telegram was extremely relevant and exam-oriented, which made preparation more focused and efficient.`,
+      text: "I would like to sincerely thank MockMentor for their excellent MCQ course and highly curated highlighted Telegram content. The MCQs on current affairs, RBI & SEBI circulars, schemes, and reports, helped me strengthen my concepts and improve revision consistently. (Shared on YouTube on her own channel)",
+      fullText: `I would like to sincerely thank MockMentor for their excellent MCQ course and highly curated highlighted Telegram content. The MCQs on current affairs, RBI & SEBI circulars, schemes, and reports, helped me strengthen my concepts and improve revision consistently. The highlighted content shared regularly on Telegram was extremely relevant and exam-oriented, which made preparation more focused and efficient.\n\n(Shared on YouTube on her own channel)`,
       img: "/harshita_portrait.jpeg"
     },
     {
@@ -254,7 +254,7 @@ The Demo Course serves as the perfect starting point for aspirants who want to e
       rank: "Selected as RBI Grade B - Rank 38 (First Attempt)",
       prog: "(Interview Program)",
       text: "RBI Grade B 2025 was my first attempt, and Team MockMentor played a very important role in making the entire journey smooth and well-guided. The Interview Guidance Programme gave me confidence, clarity, and the right direction throughout the preparation process.",
-      fullText: `2025 was my first attempt at the RBI examination, and I enrolled in the Interview Guidance Program by Mock Mentor. Initially, I was quite insecure and had very little clarity regarding what to prepare and what to study for the interview.\n\nHowever, with the continuous support and guidance of Team Mock Mentor, the entire process became much more structured and manageable. They provided significant help in preparing my biodata in a cohesive and effective manner, which gave me much-needed confidence. The team also guided me towards relevant certification courses that played an important role in strengthening my interview preparation.\n\nWith their mentorship and support, I was able to score 57 Mark's in the interview. I am truly grateful to Team Mock Mentor for being a valuable partner throughout my interview journey.`,
+      fullText: `2025 was my first attempt at the RBI examination, and I enrolled in the Interview Guidance Program by Mock Mentor. Initially, I was quite insecure and had very little clarity regarding what to prepare and what to study for the interview.\n\nHowever, with the continuous support and guidance of Team Mock Mentor, the entire process became much more structured and manageable. They provided significant help in preparing my biodata in a cohesive and effective manner, which gave me much-needed confidence. The team also guided me towards relevant certification courses that played an important role in strengthening my interview preparation.\n\nWith their mentorship and support, I was able to score 57 Mark's in the interview. I am truly grateful to Team Mock Mentor for being a valuable partner throughout my interview journey.\n\nPhase 1 phase 2 ka kaam to smjh gya tha mai but aap na hote to shayd 2-3 bar khena pdd jta interview ka khel mujhe iski demand smjhne me aur ise kaise tackle Krna h ye clear krne me\n\nThankyou sir 🙃😁☺️❤️`,
       img: "/atithi_portrait_1779098738039.jpeg",
       badges: ['First Attempt']
     },
@@ -270,32 +270,30 @@ The Demo Course serves as the perfect starting point for aspirants who want to e
       name: "Rajesh",
       rank: "Selected as RBI Grade B - Rank 57",
       prog: "(RBI course + Interview Program)",
-      text: defaultReview,
-      fullText: defaultReview,
+      text: "Whoever has been asking me personally about which coaching to rely on, I told them to practice quant and reasoning from youtube and to rely blindly on mockmentor for the rest of the things sir.",
+      fullText: `Whoever has been asking me personally about which coaching to rely on, I told them to practice quant and reasoning from youtube and to rely blindly on mockmentor for the rest of the things sir.`,
       img: "/rajesh_portrait_1779098806492.png"
     },
     {
       name: "Jay",
       rank: "Selected as RBI Grade B - Rank 70",
       prog: "(Interview Program)",
-      text: "MockMentor played a crucial role in my RBI Grade B preparation journey. The course was extremely well-structured, with high-quality study materials, relevant current affairs coverage, and exam-oriented MCQs. The mentorship and regular guidance helped me stay consistent...",
-      fullText: `MockMentor played a crucial role in my RBI Grade B preparation journey. The course was extremely well-structured, with high-quality study materials, relevant current affairs coverage, and exam-oriented MCQs. The mentorship and regular guidance helped me stay consistent and focused throughout the preparation. Their interview guidance sessions were also incredibly helpful in building confidence and improving answer presentation. I truly appreciate the support provided by the team`,
+      text: "hello sir! thank you! Mockmentor helped me immensely during my preparation journey. Rahul Sir has been giving personalized attention to every inteview candidate on the call. We had long discussions, This type of mentorship I've never experienced...",
+      fullText: `hello sir! thank you! Mockmentor helped me immensely during my preparation journey. Rahul Sir has been giving personalized attention to every inteview candidate on the call. We had long discussions, This type of mentorship I've never experienced. The tailor-made questions related to biodata were realy helpful. The highlighted material you shared was also super relevant for the interview. The valuable feedback I received in the mock interview is also much appreciated. Thanks Rahul Sir!`,
       img: "/jay_portrait_1779098621795.jpeg"
     },
     {
       name: "Raghav Manglik",
       rank: "Selected as RBI Grade B - Rank 71",
       prog: "(RBI course + Interview Program)",
-      text: "MockMentor specifically for interview was a game changer for me. You handholded me in every step. I sent my DAF to you I believe 5-6 times and you helped me create a strong document.",
-      fullText: `Good Morning Sir,\nI will create a starategy document later.\nBut I want to say MockMentor specifically for interview was a game changer for me.\nYou handholded me in every step. I sent my DAF to you I believe 5-6 times and you helped me create a strong document. You provided around 400 questions on the basis of my DAF related to my background, academic, job and also helped me connect with like minded people. \nSir, Today I think if I would have not came across you what would I have done. And to sum it up. I believe MockMentor has been my support system for interview preparation.`,
+      text: "I owe my success to your interview guidance sir. The quality of questions and your one on one support in vetting my DAF and also your patience in clearing my doubts even small ones really helped me...",
+      fullText: `I owe my success to your interview guidance sir. The quality of questions and your one on one support in vetting my DAF and also your patience in clearing my doubts even small ones really helped me. MockMentor specifically for interview was a game changer for me.\n\nYou handholded me in every step. I sent my DAF to you I believe 5-6 times and you helped me create a strong document. You provided around 400 questions on the basis of my DAF related to my background, academic, job and also helped me connect with like minded people. \n\nSir, Today I think if I would have not came across you what would I have done. And to sum it up. I believe MockMentor has been my support system for interview preparation.`,
       img: "/raghav_portrait_1779098642377.jpeg"
     },
     {
       name: "Sajal Gupta",
       rank: "Selected as RBI Grade B - Rank 75",
       prog: "(RBI course + Interview Program)",
-      text: "My experience with MockMentor has been excellent. The content was concise, relevant, and specifically designed according to the RBI Grade B exam pattern. The combination of static notes, current affairs, MCQs, descriptive support, and interview guidance made preparation much more effective.",
-      fullText: `My experience with MockMentor has been excellent. The content was concise, relevant, and specifically designed according to the RBI Grade B exam pattern. The combination of static notes, current affairs, MCQs, descriptive support, and interview guidance made preparation much more effective and manageable. The mock interview sessions and mentorship helped me improve my communication and overall confidence significantly. Highly recommended for serious aspirants.`,
       img: "/sajal_portrait_1779098753254.jpeg"
     }
   ];
@@ -385,9 +383,14 @@ The Demo Course serves as the perfect starting point for aspirants who want to e
         <p className="text-sm md:text-base text-gray-500 mb-8">
           A Mock Test platform trusted by toppers for its transparency, authenticity, and integrity.
         </p>
-        <button className="bg-[#4d868e] text-white px-8 py-3 rounded text-lg font-bold hover:bg-[#3d6f76] transition-colors shadow-md">
+        <a 
+          href="https://www.mockmentor.in/learn" 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="inline-block bg-[#4d868e] text-white px-8 py-3 rounded text-lg font-bold hover:bg-[#3d6f76] transition-colors shadow-md"
+        >
           Explore Our Courses
-        </button>
+        </a>
       </section>
 
       {/* 2. DIAGRAM SECTION */}
@@ -662,10 +665,13 @@ The Demo Course serves as the perfect starting point for aspirants who want to e
           <h2 className="text-3xl font-bold text-center text-gray-900 mb-2">Our Officers</h2>
           <p className="text-center text-gray-500 mb-12">Celebrating the success of our students in RBI Grade B</p>
 
-          <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center gap-2 border-b pb-2">
+          <h3 className="text-xl font-bold text-gray-800 mb-2 flex items-center gap-2 pb-1">
             <span className="bg-emerald-100 text-emerald-700 px-3 py-1 rounded-md text-sm">2025</span>
             Recent Selections
           </h3>
+          <p className="text-xs md:text-sm text-slate-500 mb-6 border-b pb-2 leading-relaxed">
+            Our first batch of launched courses resulting in exceptional Phase 2 and overall scores.
+          </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 sm:gap-6 justify-center mb-16">
             {officers.map((officer, idx) => {
               const rankMatch = officer.rank.match(/Rank\s+(\d+)/i);
@@ -713,10 +719,13 @@ The Demo Course serves as the perfect starting point for aspirants who want to e
             })}
           </div>
 
-          <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center gap-2 border-b pb-2">
+          <h3 className="text-xl font-bold text-gray-800 mb-2 flex items-center gap-2 pb-1">
             <span className="bg-blue-100 text-blue-700 px-3 py-1 rounded-md text-sm">2024</span>
             Previous Year Stars
           </h3>
+          <p className="text-xs md:text-sm text-slate-500 mb-6 border-b pb-2 leading-relaxed">
+            Our foundational year, where we only launched our flagship Interview Guidance Programme alongside highly-curated free Telegram content.
+          </p>
           <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-4 sm:gap-6 justify-center">
             {officers2024.map((officer, idx) => {
               const rankMatch = officer.rank.match(/Rank\s+(\d+)/i);
